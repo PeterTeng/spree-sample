@@ -16,6 +16,11 @@ gem 'meta-tags'
 gem "font-awesome-rails"
 gem 'slack-notifier'
 
+# Spree
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'
+
 # For unexpected error
 gem 'exception_notification'
 
